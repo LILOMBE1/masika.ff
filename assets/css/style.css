@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300&display=swap');
+
+.redressed {
+    font-family: 'Redressed',cursive;
+}
+
+.merriweather {
+    font-family: 'merriweather',serif;
+}
+.vig-navbar {
+    background-color: rgba(202, 40, 40, 0.55);
+    font-family: 'merriweather',serif;
+    box-shadow: 1px 1px 3px rgba(231, 226, 226, 0.54);
+    z-index: 99;
+}
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+.vig-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.vig-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color:var(--bs-teal) ;
+}
+
+.banner{
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/avions33.jpg') center center fixed 
+    no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+fond-modal {
+    background-color: #ee1a59e0;
+    opacity:0.85;
+}
